@@ -1,0 +1,75 @@
+<!-- -->
+<html>
+  <head>
+    <!-- mobile view で等倍に表示する設定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+  </head>
+
+  <style>
+    body { margin: 0 }
+    .app {
+      position: relative;
+      height: 100%;
+      background-color: #fffdf6;
+    }
+    .appbar {
+      background-color: #235666;
+      color: #fff;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    .memo-list {
+      margin-top: 5px;
+    }
+    .memo-list-item {
+      background-color: #fff;
+      padding: 12px;
+      border-bottom: 1px solid #ddd
+    }
+    .memo-list-item h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+    .memo-list-item p {
+      font-size: 11px;
+      color: #b5b1b1;
+      margin: 0;
+    }
+    .memo-add-button {
+      width: 50px;
+      height: 50px;
+      background-color: #bd6e7c;
+      color: #fff;
+      font-size: 24px;
+      text-align: center;
+      line-height: 48px;
+      border-radius: 50%;
+      position: absolute;
+      right: 24px;
+      bottom: 24px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
+    }
+  </style>
+
+  <body>
+    <div class="app">
+      <!-- title -->
+      <div class="appbar">
+        MEMOT
+      </div>
+      <!-- body -->
+      <div class="memo-list">
+        <div class="memo-list-item"><h3>講座のアイデア</h3><p>2019/05/03</p></div>
+        <div class="memo-list-item"><h3>買い出し</h3><p>2019/05/03</p></div>
+        <div class="memo-list-item"><h3>11月のTODOリスト</h3><p>2019/05/03</p></div>
+        <div class="memo-list-item"><h3>講座のアイデア</h3><p>2019/05/03</p></div>
+        <div class="memo-list-item"><h3>レシピ　カルボナーラ</h3><p>2019/05/03</p></div>
+      </div>
+      <div class="memo-add-button">
+        +
+      </div>
+    </div>
+  </body>
+</html>
